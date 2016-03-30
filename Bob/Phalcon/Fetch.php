@@ -161,6 +161,28 @@ class Fetch
     }
 
     /**
+     * @param $id
+     * @param array $pair
+     * @throws \Bob\Phalcon\Exception\Increment
+     */
+    public function decr($id, array $pair)
+    {
+        $class = $this->getClass();
+        $self = new $class();
+        $col = $self->getCollection();
+
+        $cond['_id'] = new \MongoId($id);
+
+        foreach($pair as $k => $v) ;
+        $cond = ['_id' => new \MongoId($id)];
+
+        $ret = $col->update($cond, array('$inc' => array($k => -abs($v))));
+        if(!$ret) throw new \Bob\Phalcon\Exception\Increment($class, $pair);
+
+        $this->redis->delete($class . RDS . $id);
+    }
+
+    /**
      * @example
      *   $this->fetch->article->thrown->byId($id);
      * @param $id
