@@ -1,5 +1,5 @@
 <?php
-namespace App\Component\Request\Loader;
+namespace Baohanddd\Request\Loader;
 
 class Factory
 {

@@ -1,5 +1,5 @@
 <?php
-namespace App\Component\Request\Collection;
+namespace Baohanddd\Request\Collection;
 
 use Closure;
 

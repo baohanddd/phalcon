@@ -1,9 +1,9 @@
 <?php
-namespace App\Component\Request;
+namespace Baohanddd\Request;
 
 
-use App\Component\Request\Collection\Collection;
-use App\Component\Request\Input\Base;
+use Baohanddd\Request\Collection\Collection;
+use Baohanddd\Request\Input\Base;
 use App\Model\AppCollection;
 
 class Param

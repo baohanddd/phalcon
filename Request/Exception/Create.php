@@ -1,5 +1,5 @@
 <?php
-namespace App\Component\Request\Exception;
+namespace Baohanddd\Request\Exception;
 
 
 class Create extends \Exception

@@ -1,5 +1,5 @@
 <?php
-namespace App\Component\Request\Input\Exception;
+namespace Baohanddd\Request\Input\Exception;
 
 
 class Required extends \Exception

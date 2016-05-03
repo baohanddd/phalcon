@@ -1,12 +1,12 @@
 <?php
-namespace App\Component\Request\Input;
+namespace Baohanddd\Request\Input;
 
-use App\Component\Request\Collection\Collection;
-use App\Component\Request\Input\Exception\Enum;
-use App\Component\Request\Input\Exception\InvalidOperator;
-use App\Component\Request\Input\Exception\MongoId;
-use App\Component\Request\Input\Exception\Required;
-use App\Component\Request\Input\Exception\Timestamp;
+use Baohanddd\Request\Collection\Collection;
+use Baohanddd\Request\Input\Exception\Enum;
+use Baohanddd\Request\Input\Exception\InvalidOperator;
+use Baohanddd\Request\Input\Exception\MongoId;
+use Baohanddd\Request\Input\Exception\Required;
+use Baohanddd\Request\Input\Exception\Timestamp;
 
 class Base
 {

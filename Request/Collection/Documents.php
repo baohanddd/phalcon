@@ -1,7 +1,7 @@
 <?php
-namespace App\Component\Request\Collection;
+namespace Baohanddd\Request\Collection;
 
-use App\Component\Request\Collection\Exception\Nofound;
+use Baohanddd\Request\Collection\Exception\Nofound;
 
 class Documents extends Collection
 {

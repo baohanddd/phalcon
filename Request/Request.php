@@ -1,7 +1,7 @@
 <?php
-namespace App\Component\Request;
+namespace Baohanddd\Request;
 
-use App\Component\Request\Collection\Collection;
+use Baohanddd\Request\Collection\Collection;
 use Phalcon\Http\Request as RequestBase;
 
 class Request

@@ -1,10 +1,10 @@
 <?php
-namespace App\Component\Request;
+namespace Baohanddd\Request;
 
 
-use App\Component\Request\Collection\Documents;
-use App\Component\Request\Exception\Nofound;
-use App\Component\Request\Loader\Factory;
+use Baohanddd\Request\Collection\Documents;
+use Baohanddd\Request\Exception\Nofound;
+use Baohanddd\Request\Loader\Factory;
 use App\Model\AppCollection;
 
 class Model
