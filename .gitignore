@@ -50,3 +50,9 @@ crashlytics-build.properties
 /cache/
 /config/development/
 
+.vagrant
+Vagrantfile
+conf/
+vendor
+bootstrap.sh
+composer.lock
