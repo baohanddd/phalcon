@@ -1,0 +1,7 @@
+{
+  "name": "baohanddd/request",
+  "description": "All components for each request",
+  "require": {
+    "php": ">=5.5.9"
+  }
+}
